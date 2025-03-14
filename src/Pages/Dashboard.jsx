@@ -10,7 +10,7 @@ import {
   Title,
   Tooltip,
   Legend,
-  BarElement
+  BarElement,
 } from "chart.js";
 import "../css/Dashboard.css";
 ChartJS.register(
@@ -61,29 +61,42 @@ const Dashboard = () => {
   };
 
   const barData = {
-    labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
+    labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
     datasets: [
       {
-        label: 'Revenue',
+        label: "Revenue",
         data: [500, 700, 800, 600, 900, 1100],
-        backgroundColor: ['#ff6384', '#36a2eb', '#ffce56', '#4caf50', '#9966ff', '#ff9800'],
+        backgroundColor: [
+          "#ff6384",
+          "#36a2eb",
+          "#ffce56",
+          "#4caf50",
+          "#9966ff",
+          "#ff9800",
+        ],
         borderWidth: 1,
       },
     ],
   };
   return (
     <div>
-      Dashboard
-      <div className="d-flex">
-        <div className="dashboard-line-chart">
-          <Line data={LineData} />
+      <div className="row">
+        <div className=" col-12 col-md-4">
+          {" "}
+          <div className="dashboard-line-chart">
+            <Line data={LineData} />
+          </div>
         </div>
-        <div className="dashboard-pie-chart">
-          <Pie data={pieData} />
+        <div className=" col-12 col-md-4">
+          {" "}
+          <div className="dashboard-pie-chart">
+            <Pie data={pieData} />
+          </div>
         </div>
-
-        <div className="dashboard-bar-chart">
-        <Bar data={barData}  />
+        <div className=" col-12 col-md-4">
+          <div className="dashboard-bar-chart">
+            <Bar data={barData} />
+          </div>
         </div>
       </div>
     </div>
