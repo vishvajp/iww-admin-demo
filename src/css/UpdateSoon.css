@@ -1,0 +1,12 @@
+.update-soon-div{
+    height: 69vh;
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+}
+
+.update-soon-span{
+    font-size: large;
+    font-weight: 700;
+}

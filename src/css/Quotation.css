@@ -1,0 +1,37 @@
+.quotation-form-div{
+    margin: 10px;
+    border-radius: 10px;
+    background-color: beige;
+    padding: 10px;
+}
+
+.quotation-input-div{
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 2px gray;
+    height: 30px;
+}
+
+.quotation-input-label{
+    color: black;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.quotation-add-quotation-button{
+    color: white;
+    background-color:#010b51;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px gray;
+}
+
+.quotation-Submit-button{
+    color: white;
+    background-color:#e21c21;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px gray;
+}

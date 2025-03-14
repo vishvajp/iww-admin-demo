@@ -1,0 +1,27 @@
+.dashboard-line-chart{
+    width: 380px !important;
+    height: 200px !important;
+    box-shadow: 0px 0px 2px black;
+    margin: 10px;
+}
+
+.dashboard-pie-chart {
+    width: 380px !important;
+    height: 380px !important;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    box-shadow: 0px 0px 2px black;
+    margin: 10px;
+}
+
+
+.dashboard-bar-chart {
+    width: 380px !important;
+    height: 200px !important;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    box-shadow: 0px 0px 2px black;
+    margin: 10px;
+}

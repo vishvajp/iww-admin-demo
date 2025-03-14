@@ -1,0 +1,91 @@
+.Summary-Add-project-button {
+  border: none;
+  padding: 5px 10px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px gray;
+}
+
+.summary-status-select {
+  padding: 5px 10px;
+  border: none;
+  box-shadow: 0px 0px 2px gray;
+  color: white;
+  border-radius: 5px;
+}
+
+.summary-edit-icon {
+  width: 25px;
+  height: 25px;
+
+  background-color: white;
+  margin-right: 5px;
+  color: green;
+}
+
+.summary-delete-icon {
+  width: 22px;
+  height: 22px;
+
+  background-color: white;
+
+  color: red;
+}
+
+.summary-excel-button {
+  border: none;
+  color: white;
+  background-color: green;
+  padding: 5px 10px;
+  box-shadow: 0px 0px 2px gray;
+  border-radius: 5px;
+}
+
+.summary-modal-submit {
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  background-color: red;
+  border-radius: 5px;
+}
+
+.ant-modal-footer {
+  display: none;
+}
+
+.ant-modal-title {
+  color: white !important;
+  background-color: #010b51 !important;
+  text-align: center;
+  padding: 5px;
+}
+
+.ant-modal-content {
+  padding: 5px !important;
+}
+
+.ant-modal-close {
+  color: red !important;
+  border-radius: 50% !important;
+  background-color: white !important;
+  width: 20px !important;
+  height: 20px !important;
+  right: 11px !important;
+  top: 11px !important;
+}
+
+.summary-select-company {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: white;
+  color: black;
+  box-shadow: 0px 0px 2px gray;
+}
+
+.summary-page-project-div {
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+}
