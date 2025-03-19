@@ -131,7 +131,7 @@ console.log("formdata",formData.created_company, "header-title", headerTitle)
             <h4>Client Details</h4>
           </div>
           <div className="row">
-            <div className="col">
+            <div className="col-12 col-md-6">
               {" "}
               <div className="d-flex flex-column">
                 <label className="quotation-input-label">Client Name</label>
@@ -145,7 +145,7 @@ console.log("formdata",formData.created_company, "header-title", headerTitle)
                 ></input>
               </div>
             </div>
-            <div className="col">
+            <div className="col-12 col-md-6">
               <div className="d-flex flex-column">
                 <label className="quotation-input-label">Company Name</label>
                 <input
@@ -160,7 +160,7 @@ console.log("formdata",formData.created_company, "header-title", headerTitle)
             </div>
           </div>
           <div className="row mb-3">
-            <div className="col">
+            <div className="col-12 col-md-6">
               {" "}
               <div className="d-flex flex-column">
                 <label className="quotation-input-label">Address</label>
@@ -174,7 +174,7 @@ console.log("formdata",formData.created_company, "header-title", headerTitle)
                 ></input>
               </div>
             </div>
-            <div className="col">
+            <div className="col-12 col-md-6">
               <div className="d-flex flex-column">
                 <label className="quotation-input-label">Email</label>
                 <input
@@ -190,7 +190,7 @@ console.log("formdata",formData.created_company, "header-title", headerTitle)
           </div>
 
           <div className="row mb-3" >
-            <div className="col">
+            <div className="col-12 col-md-6">
             
                           <select
                             className="quotation-input-div"
@@ -204,7 +204,7 @@ console.log("formdata",formData.created_company, "header-title", headerTitle)
                           </select>
                     
             </div>
-            <div className="col"></div>
+            <div className="col-12 col-md-6"></div>
           </div>
           <button
             type="button"
@@ -222,7 +222,7 @@ console.log("formdata",formData.created_company, "header-title", headerTitle)
                     Item {qIndex + 1}
                   </span>
                   {Object.keys(quotation).map((key, index) => (
-                    <div className="col-6 mb-2" key={index}>
+                    <div className="col-12 col-md-6 mb-2" key={index}>
                       <div className="d-flex flex-column">
                         <label className="quotation-input-label">
                           {key

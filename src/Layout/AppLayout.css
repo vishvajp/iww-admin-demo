@@ -318,7 +318,7 @@ margin-bottom: 10px;
 
 @media screen and (max-width: 768px) {
 .applayout-top-header {
-    height: 260px !important;
+    height: 167px !important;
 }
 .home-header{
   align-items: unset !important;

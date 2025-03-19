@@ -254,7 +254,7 @@ const PaymentStatus = () => {
               </div>
               <form onSubmit={handleSubmit}>
                 <div className="row">
-                  <div className="col">
+                  <div className="col-12 col-md-6">
                     <div className="d-flex flex-column">
                       <label className="quotation-input-label">Job No</label>
                       <input
@@ -265,7 +265,7 @@ const PaymentStatus = () => {
                       />
                     </div>
                   </div>
-                  <div className="col">
+                  <div className="col-12 col-md-6">
                     <div className="d-flex flex-column">
                       <label className="quotation-input-label">PO Date</label>
                       <input
@@ -278,7 +278,7 @@ const PaymentStatus = () => {
                   </div>
                 </div>
                 <div className="row">
-                  <div className="col">
+                  <div className="col-12 col-md-6">
                     <div className="d-flex flex-column">
                       <label className="quotation-input-label">
                         Payment Terms
@@ -291,7 +291,7 @@ const PaymentStatus = () => {
                       />
                     </div>
                   </div>
-                  <div className="col">
+                  <div className="col-12 col-md-6">
                     <div className="d-flex flex-column">
                       <label className="quotation-input-label">
                         Buyer Contact
@@ -306,7 +306,7 @@ const PaymentStatus = () => {
                   </div>
                 </div>
                 <div className="row">
-                  <div className="col">
+                  <div className="col-12 col-md-6">
                     <div className="d-flex flex-column">
                       <label className="quotation-input-label">
                         Vendor Ref No
@@ -319,7 +319,7 @@ const PaymentStatus = () => {
                       />
                     </div>
                   </div>
-                  <div className="col">
+                  <div className="col-12 col-md-6">
                     <div className="d-flex flex-column">
                       <label className="quotation-input-label">PR/MTO NO</label>
                       <input
@@ -332,7 +332,7 @@ const PaymentStatus = () => {
                   </div>
                 </div>
                 <div className="row">
-                  <div className="col">
+                  <div className="col-12 col-md-6">
                     <div className="d-flex flex-column">
                       <label className="quotation-input-label">
                         PR/MTO Date
@@ -345,7 +345,7 @@ const PaymentStatus = () => {
                       />
                     </div>
                   </div>
-                  <div className="col">
+                  <div className="col-12 col-md-6">
                     <div className="d-flex flex-column">
                       <label className="quotation-input-label">
                         Delivery Terms
@@ -360,7 +360,7 @@ const PaymentStatus = () => {
                   </div>
                 </div>
                 <div className="row">
-                  <div className="col">
+                  <div className="col-12 col-md-6">
                     <div className="d-flex flex-column">
                       <label className="quotation-input-label">
                         Delivery Date
@@ -373,7 +373,7 @@ const PaymentStatus = () => {
                       />
                     </div>
                   </div>
-                  <div className="col">
+                  <div className="col-12 col-md-6">
                     <div className="d-flex flex-column">
                       <label className="quotation-input-label">Initiator</label>
                       <input
@@ -386,7 +386,7 @@ const PaymentStatus = () => {
                   </div>
                 </div>
                 <div className="row">
-                  <div className="col">
+                  <div className="col-12 col-md-6">
                     <div className="d-flex flex-column">
                       <label className="quotation-input-label">Payment</label>
                       <select
@@ -401,7 +401,7 @@ const PaymentStatus = () => {
                       </select>
                     </div>
                   </div>
-                  <div className="col">
+                  <div className="col-12 col-md-6">
                     {formData.payment_Status === "Half Paid" && (
                       <div className="d-flex flex-column">
                         <label className="quotation-input-label">
@@ -425,7 +425,7 @@ const PaymentStatus = () => {
                         <div className="d-flex mt-2">
                           <strong>Item{qIndex + 1}</strong>
                         </div>
-                        <div className="col">
+                        <div className="col-12 col-md-6">
                           <div className="d-flex flex-column">
                             <lable className="quotation-input-label">
                               Description
@@ -443,7 +443,7 @@ const PaymentStatus = () => {
                             ></input>
                           </div>
                         </div>
-                        <div className="col">
+                        <div className="col-12 col-md-6">
                           <div className="d-flex flex-column">
                             <label className="quotation-input-label">
                               Quantity
@@ -463,7 +463,7 @@ const PaymentStatus = () => {
                         </div>
                       </div>
                       <div className="row">
-                        <div className="col">
+                        <div className="col-12 col-md-6">
                           <div className="d-flex flex-column">
                             <lable className="quotation-input-label">Uom</lable>
                             <input
@@ -475,7 +475,7 @@ const PaymentStatus = () => {
                             ></input>
                           </div>
                         </div>
-                        <div className="col">
+                        <div className="col-12 col-md-6">
                           <div className="d-flex flex-column">
                             <label className="quotation-input-label">
                               Unit Price
@@ -495,7 +495,7 @@ const PaymentStatus = () => {
                         </div>
                       </div>
                       <div className="row">
-                        <div className="col">
+                        <div className="col-12 col-md-6">
                           <div className="d-flex flex-column">
                             <label className="quotation-input-label">
                               Work Percentage
@@ -514,7 +514,7 @@ const PaymentStatus = () => {
                             ></input>
                           </div>
                         </div>
-                        <div className="col"></div>
+                        <div className="col-12 col-md-6"></div>
                       </div>
                       <button
                         className="quotation-add-quotation-button"

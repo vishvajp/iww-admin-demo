@@ -5,8 +5,9 @@ const HeaderDataProvider = ({children}) => {
     const [colorState, setColorState]=useState("#010b51")
     const [logoImg,setLogoImg]=useState("")
     const [headerTitle,setHeaderTitle]=useState("Iww Group Of Companies")
+    const [collapsed, setCollapsed] = useState(false);
   return (
-    <HeaderDataContext.Provider value={{colorState, setColorState,logoImg,setLogoImg,headerTitle,setHeaderTitle}}>
+    <HeaderDataContext.Provider value={{colorState, setColorState,logoImg,setLogoImg,headerTitle,setHeaderTitle,collapsed, setCollapsed}}>
         {children}
     </HeaderDataContext.Provider>
   )
