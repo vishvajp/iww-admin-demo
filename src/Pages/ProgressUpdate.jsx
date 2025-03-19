@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useContext } from "react";
 import Table from "react-bootstrap/Table";
 import "../css/ProgressUpdate.css";
+
 import { HeaderDataContext } from "../Context/HeaderContext";
 
 const ProgressUpdate = () => {
@@ -27,7 +28,7 @@ const ProgressUpdate = () => {
         ...sutanQuotation,
       ];
       setQuotations(quotations);
-      console.log("game")
+      console.log("game");
     } else {
       const storedQuotations =
         JSON.parse(localStorage.getItem(`${headerTitle}-quotation`)) || [];

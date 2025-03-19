@@ -9,6 +9,7 @@ import PaymentStatus from "./Pages/PaymentStatus";
 import Summary from "./Pages/Summary";
 import UpdateSoon from "./Pages/UpdateSoon";
 import { HeaderDataProvider } from "./Context/HeaderContext.jsx";
+import Expense from "./Pages/Expense.jsx";
 
 function App() {
   return (
@@ -68,7 +69,7 @@ function App() {
             path="/expense"
             element={
               <AppLayout>
-                <UpdateSoon></UpdateSoon>
+                <Expense></Expense>
               </AppLayout>
             }
           />
